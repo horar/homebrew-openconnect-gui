@@ -22,7 +22,6 @@ class OpenconnectGui < Formula
 
   option "with-ini-settings", "TODO"
   option "with-pkcs11", "TODO"
-  option "with-gnutls-debug", "TODO"
 
   depends_on :macos => :mavericks
 
