@@ -5,15 +5,16 @@
 class OpenconnectGui < Formula
   desc "Graphical OpenConnect VPN client"
   homepage "http://openconnect.github.io/openconnect-gui/"
-  url "https://github.com/openconnect/openconnect-gui/archive/v1.5.0.tar.gz"
-  version "1.5.0"
-  #revision 1
-  sha256 "8dfc19333c062fc2551fb539bd364f64b812f00e149dbb4877d20faa7e02970e"
+  stable do
+    url "https://github.com/openconnect/openconnect-gui/archive/v1.5.2.tar.gz"
+    version "1.5.2"
+    #revision 1
+    sha256 "0275c25325965f40a74e150b99e6e3c928cf863a46e338f2e6a910a7cb6c1b63"
+  end
 
   bottle do
-    sha256 "5511bf90172647f7b0eda6587a5b1e43cee22401bed32a40344f9205d32be48e" => :high_sierra
-    sha256 "e05a7844a25e252ca9460331cc4522eeda7c213124306324cbbd4fb9e45b10b3" => :sierra
-    sha256 "d5d62f862a89868655f9d0ab12a8742e4ec605a96a7c44a7e23cfe2961fb5542" => :el_capitan
+    root_url "https://github.com/openconnect/openconnect-gui/releases/download/v1.5.2"
+    sha256 "a98afd9ea97d5be3618a180710f6a93e4cd2968ca0c93f058c53fa3d16cf5b25" => :high_sierra
   end
 
   head do
