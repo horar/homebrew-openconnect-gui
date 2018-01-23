@@ -1,5 +1,7 @@
 # Homebrew formula for OpenConnect-GUI project
 
+[![Build Status](https://travis-ci.org/horar/homebrew-openconnect-gui.svg?branch=develop)](https://travis-ci.org/horar/homebrew-openconnect-gui)
+
 ## How do I install this formulae?
 
 First add this tap to your homebrew using (you only need to do this once to initialize the tap):
