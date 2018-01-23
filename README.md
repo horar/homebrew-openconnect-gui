@@ -18,7 +18,7 @@ brew install openconnect-gui
 
 ## Documentation
 
-brew help, man brew or check [Homebrew's documentation](https://github.com/Homebrew/brew/blob/master/docs/README.md).
+`brew help`, `man brew` or check [Homebrew's documentation](https://github.com/Homebrew/brew/blob/master/docs/README.md).
 
 ## License
 Code is under the [MIT](LICENSE) license.
