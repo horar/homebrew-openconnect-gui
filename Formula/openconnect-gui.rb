@@ -28,7 +28,7 @@ class OpenconnectGui < Formula
 
   depends_on :xcode => :build
   depends_on "cmake" => :build
-  depends_on "qt5"
+  depends_on "qt"
   #depends_on "openconnect" => ["with-stoken", "with-oath-toolkit"]
   depends_on "openconnect"
 
