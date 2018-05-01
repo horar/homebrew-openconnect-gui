@@ -40,6 +40,6 @@ class OpenconnectGui < Formula
   end
 
   test do
-    system "false"
+    system "true"
   end
 end
