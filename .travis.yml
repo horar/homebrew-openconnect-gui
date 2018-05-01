@@ -14,6 +14,6 @@ install:
 script:
   - brew install openconnect-gui $FORMULA_VERSION --verbose
   - brew audit openconnect-gui --strict
-  - brew test openconnect-gui
+  - brew test $FORMULA_VERSION openconnect-gui
 matrix:
   fast_finish: true
