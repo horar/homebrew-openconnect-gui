@@ -12,8 +12,8 @@ install:
   - mkdir -p $(brew --repo)/Library/Taps/horar
   - ln -s $TRAVIS_BUILD_DIR $(brew --repo)/Library/Taps/horar/homebrew-openconnect-gui
 script:
-  - brew install openconnect-gui $FORMULA_VERSION --verbose
-  - brew audit openconnect-gui --strict
+  - brew install $FORMULA_VERSION --verbose openconnect-gui
+  - brew audit --strict openconnect-gui
   - brew test $FORMULA_VERSION openconnect-gui
 matrix:
   fast_finish: true
